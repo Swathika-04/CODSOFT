@@ -1,3 +1,4 @@
+<script>
 let display = document.getElementById("display");
 
 function appendValue(value) {
@@ -15,4 +16,6 @@ function calculate() {
     } catch {
         display.value = "Error";
     }
+
 }
+</script>
